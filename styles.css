@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border-style: none;
+  border-bottom: 5px solid rgb(255, 200, 0);
+  color: rgb(40, 40, 119);
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+input:focus {
+  box-shadow: none !important;
+  border-bottom: 2px solid rgb(40, 40, 119);
+}
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.description,
+h2 {
+  color: rgb(40, 40, 119);
+  margin: 0 auto;
+}
+
+.row-cols-1 {
+  margin: 0 auto;
+}
+
+.footer {
+  padding: 2rem 0;
+  border-top: 2px solid gray;
+}
+
+.footer,
+.expert {
+  background-color: rgb(40, 40, 119);
+}
+
+.footer.container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grey {
+  color: grey;
+}
+
+.headings {
+  color: rgb(40, 40, 119);
+  font-size: 4rem;
+}
+
+.values p,
+.accordion-button,
+.staff-list {
+  color: rgb(64, 64, 167);
+}
+
+.leader {
+  position: relative;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.leader img {
+  border-radius: 1.5rem;
+}
+
+.leader-info {
+  position: absolute;
+  background-color: rgb(217, 223, 228);
+  width: 80%;
+  border-radius: 1rem;
+  padding: 1rem;
+  left: 2.7rem;
+  bottom: 1rem;
+}
+
+.img-column {
+  width: 7rem;
+}
+
+button.service-btn {
+  color: #fff;
+  background-color: rgb(40, 40, 119);
+}
+
+.b-bottom h2 {
+  font-size: 3rem;
+}
+
+.b-bottom p {
+  font-size: 1.5rem;
+}
+
+.marge {
+  margin-top: 5rem;
+}
+
+.fa-solid {
+  font-size: 3rem;
+  color: rgb(255, 200, 0);
+  margin-bottom: 1.5rem;
+}
+
+button.submit {
+  border: none;
+  background-color: rgb(40, 40, 119);
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 1.2rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.enquire-btn button {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 750px) {
+  .medium {
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  .description h2 {
+    text-align: start;
+    margin-bottom: 1rem;
+  }
+  .weare {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+}
